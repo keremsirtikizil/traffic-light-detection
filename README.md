@@ -13,16 +13,3 @@ This project explores camera-based **traffic light detection and classification*
 - **Planned Upgrade**: Replace MobileNetV2 with a more accurate model, trained and tested on the **DriveU Traffic Light Dataset (DTLD)**.
 
 ---
-
-## 📂 Repository Structure
-
-```bash
-├── dtld_parsing/             # Clone of DTLD parsing tools
-│   └── python/               # Scripts to extract crops and parse labels
-├── data/
-│   ├── DTLD/                 # Contains stereo images and city folders
-│   └── DTLD_labels_v2.0/     # JSON-formatted annotations
-├── webcam_test/              # YOLO webcam test scripts
-├── yolo_models/              # Wrapper to test different YOLO models
-├── utils/                    # Helper functions for parsing, visualization
-└── README.md
